@@ -67,6 +67,10 @@ function App() {
                 <h3>Hobi</h3>
                 <Select options={options}/> 
               </div>
+              <div className="form-group">
+                <h3>Komentar</h3>
+		      			<input type="text" className="form-control rounded-left" name="username" placeholder="Masukkan komentar Anda" value={formValues.name} onChange={handleChange}/>
+		      		</div>
               
               <div className = "reset">
                 <button className="btn submit">Reset Data</button>
